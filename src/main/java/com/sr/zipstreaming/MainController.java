@@ -60,6 +60,6 @@ public class MainController {
             });
         });
         zipOut.finish();
-        return new HttpEntity<>("This is a test message");
+        return new HttpEntity<>("This is a test message + 1 ");
     }
 }
